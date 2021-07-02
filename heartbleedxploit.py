@@ -1,11 +1,6 @@
 #!/usr/bin/python
  
 # Connects to servers vulnerable to CVE-2014-0160 and looks for cookies, specifically user sessions.
-# Michael Davis (mike.philip.davis@gmail.com)
- 
-# Based almost entirely on the quick and dirty demonstration of CVE-2014-0160 by Jared Stafford (jspenguin@jspenguin.org)
- 
-# The author disclaims copyright to this source code.
  
 import select
 import sys
